@@ -13,54 +13,46 @@ code {
     monospace;
 }
 
-.container {
+.first_page_container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    background-color: #00232b;
+    background-image: url(./1.jpg);
+    background-size: cover;
 }
 
-.wrapper {
+.welcome_container {
+    height: 150px;
+    width: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    height: 350px;
-    border: 2px solid black;
-    background-color: white;
+    background-color: #0b1f3e;
+    border: 2px solid #ee00f4;
 }
 
-.heading {
+.welcome_heading {
     padding: 2px;
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
-input {
-    margin: 5px 0;
+.welcome_button {
+    width: 150px;
     height: 40px;
-    width: 260px;
-    border: 1px solid grey;
-    padding-left: 10px;
-}
-
-input:focus {
-    outline: none;
-}
-
-.submit_input {
-    height: 42px;
-    width: 275px;
     border: none;
-    background-color: #8688fa;
+    background-color: #ee00f4;
     margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
 }
 
-.submit_input:hover {
-    background-color: #6869bf;
+.welcome_button:hover {
+    background-color: #fdbdff;
     transform: scale(1.02);
     transition: 0.2s;
     outline: none;
