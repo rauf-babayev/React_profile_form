@@ -57,3 +57,30 @@ code {
     transition: 0.2s;
     outline: none;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00232b;
+    background-image: url(./1.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 335px;
+    border: 2px solid #ee00f4;
+    background-color: #0b1f3e;
+}
+
+.container__title {
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
