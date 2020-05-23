@@ -69,16 +69,38 @@ code {
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 300px;
-    height: 335px;
+    height: 345px;
     border: 2px solid #ee00f4;
     background-color: #0b1f3e;
 }
 
+.container__main-window-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__close-bt-wrapper {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 0px;
+}
+
+.container__close-button {
+    color: #ee00f4;
+    background: none;
+    border: none;
+    margin: 3px 0;
+    font-size: 15px
+}
+
+.container__close-button:hover {
+    color: #fdbdff;
+}
+
 .container__title {
+    margin-top: 2px;
     padding: 2px;
     font-size: 20px;
     font-weight: bold;
