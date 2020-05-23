@@ -1,4 +1,4 @@
-import React, { Component} from 'react'
+import React from 'react'
 import './input.css';
 
 class Input extends React.Component {
@@ -21,6 +21,8 @@ class Input extends React.Component {
         className,
         placeholder,
         value,
+        onClick,
+        onKeyPress,
     } = this.props
 
         return (
@@ -29,8 +31,10 @@ class Input extends React.Component {
                 className = {className}
                 placeholder = {placeholder}
                 value = {value}
+                onClick = {onClick}
+                onKeyPress = {onKeyPress}
             />
-        );
+        )
     }
 }
 
