@@ -1,0 +1,29 @@
+.container__params {
+    margin: 5px 0;
+    height: 40px;
+    width: 260px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.container__params:focus {
+    outline: none;
+}
+
+.container__submit-input {
+    height: 42px;
+    width: 275px;
+    border: none;
+    background-color: #ee00f4;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.container__submit-input:hover {
+    background-color: #fdbdff;
+    transform: scale(1.02);
+    transition: 0.2s;
+    outline: none;
+}

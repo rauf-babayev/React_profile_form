@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.first_page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./1.jpg);
+    background-size: cover;
+}
+
+.welcome_container {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0b1f3e;
+    border: 2px solid #ee00f4;
+}
+
+.welcome_heading {
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.welcome_button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #ee00f4;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.welcome_button:hover {
+    background-color: #fdbdff;
+    transform: scale(1.02);
+    transition: 0.2s;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00232b;
+    background-image: url(./1.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    width: 300px;
+    height: 345px;
+    border: 2px solid #ee00f4;
+    background-color: #0b1f3e;
+}
+
+.container__main-window-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__close-bt-wrapper {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 0px;
+}
+
+.container__close-button {
+    color: #ee00f4;
+    background: none;
+    border: none;
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.container__close-button:hover {
+    color: #fdbdff;
+    outline: none;
+}
+
+.container__title {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
